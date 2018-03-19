@@ -3,10 +3,10 @@
 /*                                                              /             */
 /*   alum1.h                                          .::    .:/ .      .::   */
 /*                                                 +:+:+   +:    +:  +:+:+    */
-/*   By: aweiler <marvin@le-101.fr>                 +:+   +:    +:    +:+     */
+/*   By: ythollet <ythollet@student.le-101.fr>      +:+   +:    +:    +:+     */
 /*                                                 #+#   #+    #+    #+#      */
 /*   Created: 2017/12/16 11:28:51 by aweiler      #+#   ##    ##    #+#       */
-/*   Updated: 2018/03/16 17:45:01 by ythollet    ###    #+. /#+    ###.fr     */
+/*   Updated: 2018/03/19 17:50:34 by ythollet    ###    #+. /#+    ###.fr     */
 /*                                                         /                  */
 /*                                                        /                   */
 /* ************************************************************************** */
@@ -17,7 +17,7 @@
 # include <fcntl.h>
 # include <unistd.h>
 # include <stdlib.h>
-# include "Libft/includes/libft.h"
+# include "Libft/Includes/libft.h"
 
 char	*ft_read_file(char *file);
 int		*ft_check(char *str);
